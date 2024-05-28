@@ -11,18 +11,22 @@
       
       
       
+        <link rel="prev" href="../4.3.%20Testing/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../4.5.%20Formatting/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25">
     
     
       
-        <title>MLOps Coding Course</title>
+        <title>4.4. Logging - MLOps Coding Course</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
       
       
 
@@ -41,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -59,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#44-logging" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -71,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="MLOps Coding Course" class="md-header__button md-logo" aria-label="MLOps Coding Course" data-md-component="logo">
+    <a href="../.." title="MLOps Coding Course" class="md-header__button md-logo" aria-label="MLOps Coding Course" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -91,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              4.4. Logging
             
           </span>
         </div>
@@ -178,7 +187,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="MLOps Coding Course" class="md-nav__button md-logo" aria-label="MLOps Coding Course" data-md-component="logo">
+    <a href="../.." title="MLOps Coding Course" class="md-nav__button md-logo" aria-label="MLOps Coding Course" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -208,7 +217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -263,7 +272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/0.%20Overview/0.0%20Summary/" class="md-nav__link">
+      <a href="../../0.%20Overview/0.0%20Summary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -284,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/0.%20Overview/0.1.%20Datasets/" class="md-nav__link">
+      <a href="../../0.%20Overview/0.1.%20Datasets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -305,7 +314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/0.%20Overview/0.2.%20Architecture/" class="md-nav__link">
+      <a href="../../0.%20Overview/0.2.%20Architecture/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -368,7 +377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1.%20Initializing/1.0.%20README/" class="md-nav__link">
+      <a href="../../1.%20Initializing/1.0.%20README/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -389,7 +398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1.%20Initializing/1.1.%20LICENSE/" class="md-nav__link">
+      <a href="../../1.%20Initializing/1.1.%20LICENSE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -410,7 +419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1.%20Initializing/1.2.%20pyenv/" class="md-nav__link">
+      <a href="../../1.%20Initializing/1.2.%20pyenv/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -431,7 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1.%20Initializing/1.3.%20poetry/" class="md-nav__link">
+      <a href="../../1.%20Initializing/1.3.%20poetry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -452,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1.%20Initializing/1.4.%20git/" class="md-nav__link">
+      <a href="../../1.%20Initializing/1.4.%20git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -473,7 +482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1.%20Initializing/1.5.%20GitHub/" class="md-nav__link">
+      <a href="../../1.%20Initializing/1.5.%20GitHub/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -494,7 +503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1.%20Initializing/1.6.%20VS%20Code/" class="md-nav__link">
+      <a href="../../1.%20Initializing/1.6.%20VS%20Code/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -557,7 +566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2.%20Prototyping/2.0.%20Notebook/" class="md-nav__link">
+      <a href="../../2.%20Prototyping/2.0.%20Notebook/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -578,7 +587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2.%20Prototyping/2.1.%20Imports/" class="md-nav__link">
+      <a href="../../2.%20Prototyping/2.1.%20Imports/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -599,7 +608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2.%20Prototyping/2.2.%20Configs/" class="md-nav__link">
+      <a href="../../2.%20Prototyping/2.2.%20Configs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -620,7 +629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2.%20Prototyping/2.3.%20Options/" class="md-nav__link">
+      <a href="../../2.%20Prototyping/2.3.%20Options/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -641,7 +650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2.%20Prototyping/2.4.%20Datasets/" class="md-nav__link">
+      <a href="../../2.%20Prototyping/2.4.%20Datasets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -662,7 +671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2.%20Prototyping/2.5.%20Pipelines/" class="md-nav__link">
+      <a href="../../2.%20Prototyping/2.5.%20Pipelines/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -683,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2.%20Prototyping/2.6.%20Evaluations/" class="md-nav__link">
+      <a href="../../2.%20Prototyping/2.6.%20Evaluations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -746,7 +755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3.%20Refactoring/3.0.%20Package/" class="md-nav__link">
+      <a href="../../3.%20Refactoring/3.0.%20Package/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -767,7 +776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3.%20Refactoring/3.1.%20Modules/" class="md-nav__link">
+      <a href="../../3.%20Refactoring/3.1.%20Modules/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -788,7 +797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3.%20Refactoring/3.2.%20Functions/" class="md-nav__link">
+      <a href="../../3.%20Refactoring/3.2.%20Functions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -809,7 +818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3.%20Refactoring/3.3.%20Entrypoints/" class="md-nav__link">
+      <a href="../../3.%20Refactoring/3.3.%20Entrypoints/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -830,7 +839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3.%20Refactoring/3.4.%20Configurations/" class="md-nav__link">
+      <a href="../../3.%20Refactoring/3.4.%20Configurations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -851,7 +860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3.%20Refactoring/3.5.%20Documentations/" class="md-nav__link">
+      <a href="../../3.%20Refactoring/3.5.%20Documentations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -872,7 +881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3.%20Refactoring/3.6.%20VS%20Code%20Workspace/" class="md-nav__link">
+      <a href="../../3.%20Refactoring/3.6.%20VS%20Code%20Workspace/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -897,17 +906,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -921,7 +932,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             4. Validating
@@ -935,7 +946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/4.%20Validating/4.0.%20Checkers/" class="md-nav__link">
+      <a href="../4.0.%20Checkers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -956,7 +967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/4.%20Validating/4.1.%20Typing/" class="md-nav__link">
+      <a href="../4.1.%20Typing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -977,7 +988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/4.%20Validating/4.2.%20Linting/" class="md-nav__link">
+      <a href="../4.2.%20Linting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -998,7 +1009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/4.%20Validating/4.3.%20Testing/" class="md-nav__link">
+      <a href="../4.3.%20Testing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1016,10 +1027,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/4.%20Validating/4.4.%20Logging/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    4.4. Logging
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1028,6 +1059,68 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-logging-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Logging in Python?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What is Logging in Python?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-tools-and-concepts-for-logging-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Tools and Concepts for Logging in Python:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-is-logging-important-in-python-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why is Logging Important in Python Projects?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices-for-logging-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices for Logging in Python
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1040,7 +1133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/4.%20Validating/4.5.%20Formatting/" class="md-nav__link">
+      <a href="../4.5.%20Formatting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1061,7 +1154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/4.%20Validating/4.6.%20Debugging/" class="md-nav__link">
+      <a href="../4.6.%20Debugging/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1124,7 +1217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/5.%20Refining/5.0.%20Patterns/" class="md-nav__link">
+      <a href="../../5.%20Refining/5.0.%20Patterns/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1145,7 +1238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/5.%20Refining/5.1.%20Tasks/" class="md-nav__link">
+      <a href="../../5.%20Refining/5.1.%20Tasks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1166,7 +1259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/5.%20Refining/5.2.%20Hooks/" class="md-nav__link">
+      <a href="../../5.%20Refining/5.2.%20Hooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1187,7 +1280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/5.%20Refining/5.3.%20Actions/" class="md-nav__link">
+      <a href="../../5.%20Refining/5.3.%20Actions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1208,7 +1301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/5.%20Refining/5.4.%20Versions/" class="md-nav__link">
+      <a href="../../5.%20Refining/5.4.%20Versions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1229,7 +1322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/5.%20Refining/5.5.%20Containers/" class="md-nav__link">
+      <a href="../../5.%20Refining/5.5.%20Containers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1250,7 +1343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/5.%20Refining/5.6.%20Security/" class="md-nav__link">
+      <a href="../../5.%20Refining/5.6.%20Security/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1313,7 +1406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/6.%20Templating/6.0.%20Templates/" class="md-nav__link">
+      <a href="../../6.%20Templating/6.0.%20Templates/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1334,7 +1427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/6.%20Templating/6.1.%20Cookiecutter/" class="md-nav__link">
+      <a href="../../6.%20Templating/6.1.%20Cookiecutter/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1355,7 +1448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/6.%20Templating/6.2.%20Cruft/" class="md-nav__link">
+      <a href="../../6.%20Templating/6.2.%20Cruft/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1376,7 +1469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/6.%20Templating/6.3.%20Contributions/" class="md-nav__link">
+      <a href="../../6.%20Templating/6.3.%20Contributions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1397,7 +1490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/6.%20Templating/6.4.%20Changelog/" class="md-nav__link">
+      <a href="../../6.%20Templating/6.4.%20Changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1418,7 +1511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/6.%20Templating/6.5.%20Releases/" class="md-nav__link">
+      <a href="../../6.%20Templating/6.5.%20Releases/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1439,7 +1532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/6.%20Templating/6.6.%20Adoption/" class="md-nav__link">
+      <a href="../../6.%20Templating/6.6.%20Adoption/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1477,6 +1570,58 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-logging-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Logging in Python?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What is Logging in Python?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-tools-and-concepts-for-logging-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Tools and Concepts for Logging in Python:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-is-logging-important-in-python-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why is Logging Important in Python Projects?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices-for-logging-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices for Logging in Python
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1488,8 +1633,74 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+  
+
+
+<h1 id="44-logging">4.4. Logging</h1>
+<h2 id="what-is-logging-in-python">What is Logging in Python?</h2>
+<p>Logging in Python refers to the process of tracking and recording various activities that occur within a software application. It's an essential aspect of software development and maintenance, as it helps in understanding the flow of a program and diagnosing issues.</p>
+<h3 id="key-tools-and-concepts-for-logging-in-python">Key Tools and Concepts for Logging in Python:</h3>
+<ol>
+<li><strong>loguru</strong>:</li>
+<li><strong>Description</strong>: loguru is a Python library that aims to make logging in Python as simple and convenient as possible. It provides a ready-to-use, hassle-free configuration approach to logging.</li>
+<li><strong>Usage</strong>: Import loguru and start logging messages with various severity levels. It automatically handles complexities like file rotation and asynchronous I/O.</li>
+<li>
+<p><strong>Benefits</strong>: Simplifies logging setup, offers beautiful and informative log formatting, and requires less boilerplate code compared to Python’s standard logging module.</p>
+</li>
+<li>
+<p><strong>Handlers and Formatters</strong>:</p>
+</li>
+<li><strong>Description</strong>: In Python's standard logging library, handlers are responsible for dispatching the appropriate log messages (e.g., to a file, to the console, over a network, etc.) whereas formatters specify the layout of log messages.</li>
+<li><strong>Usage</strong>: Configure handlers and formatters to direct your log output to different destinations and formats, according to your application’s needs.</li>
+<li>
+<p><strong>Benefits</strong>: Provides flexibility in logging, allowing different outputs and formats based on the requirements of different parts of an application.</p>
+</li>
+<li>
+<p><strong>Levels</strong>:</p>
+</li>
+<li><strong>Description</strong>: Logging levels indicate the severity of a log message. Common levels include DEBUG, INFO, WARNING, ERROR, and CRITICAL.</li>
+<li><strong>Usage</strong>: Use different logging levels in your application to differentiate between the severity of log messages.</li>
+<li><strong>Benefits</strong>: Helps in filtering log messages. For example, in a development environment, you might want all levels logged, but in production, you might only want WARNING and above.</li>
+</ol>
+<h2 id="why-is-logging-important-in-python-projects">Why is Logging Important in Python Projects?</h2>
+<p>Logging is vital for several reasons:</p>
+<ul>
+<li><strong>Debugging</strong>: Helps in diagnosing and troubleshooting problems in code.</li>
+<li><strong>Monitoring</strong>: Enables monitoring of application behavior and performance in production.</li>
+<li><strong>Audit Trails</strong>: Provides an audit trail that can be used to understand a series of events leading up to an issue.</li>
+<li><strong>Documentation</strong>: Acts as a form of real-time documentation of the system’s behavior.</li>
+</ul>
+<h2 id="best-practices-for-logging-in-python">Best Practices for Logging in Python</h2>
+<ol>
+<li><strong>Use Appropriate Logging Levels</strong>: Be judicious in setting the logging levels. Use DEBUG for detailed information, INFO for general messages, WARNING for potential issues, ERROR for serious problems, and CRITICAL for severe cases.</li>
+<li><strong>Contextual Information</strong>: Include contextual information in log messages to make them more informative.</li>
+<li><strong>Avoid Logging Sensitive Information</strong>: Be cautious not to log sensitive data like passwords or personal user data.</li>
+<li><strong>Consistent Format</strong>: Use a consistent format for log messages, making them easier to read and analyze.</li>
+<li><strong>Manage Log File Size</strong>: Implement log rotation to</li>
+</ol>
+<p>manage the size of log files, preventing them from consuming too much disk space.
+6. <strong>Asynchronous Logging</strong>: Consider using asynchronous logging to improve performance, especially in applications where logging can be a bottleneck.
+7. <strong>Centralize Logs</strong>: In distributed systems, centralize log collection for easier monitoring and analysis.
+8. <strong>Use Structured Logging</strong>: Whenever possible, use structured logging (like JSON) for complex applications. This makes parsing and querying logs easier.
+9. <strong>Review and Test Logging Configuration</strong>: Regularly review and test your logging configuration to ensure it's capturing the right information.
+10. <strong>Educate Team on Logging Practices</strong>: Make sure your team understands the importance of consistent and effective logging practices.</p>
+<p>Effective logging is a powerful tool in the developer’s toolkit, offering insights into the behavior of applications, facilitating debugging, and providing a record of system activity that is invaluable for maintaining and improving complex systems.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1527,10 +1738,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.081f42fc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
   </body>
